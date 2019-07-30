@@ -3,14 +3,20 @@ h1{
     text-align: center;
     font-size: 30px;
     background-color: silver;
+    border-style: solid;
+    border-color:black;
 }
 .dropdownmenu{
     background-color:black;
     color:White;
+    border-style: groove;
+    border-color: black;
 }
 .content{
     background-color: grey;
     color:white;
+    border-style: groove;
+    border-color: black;
 }
 html{
     background-color:red;
@@ -28,20 +34,45 @@ text-align: center;
 text-decoration: underline;
 font-weight: bold;
 
+
 }
 .css-format{
 text-align: center;
 text-decoration: underline;
-padding-top: 1em;
+
 font-weight: bold;
+padding-top: 10px;
 }
 .javascript-format{
 text-align: center;
 text-decoration: underline;
-padding-top: 1em;  
 font-weight: bold; 
+padding-top:10px;
+
 }
 .button-html {
+    background-color:  black;
+    border: 5px solid silver;
+    border-radius: 3px;
+    color:white;
+    font-size: 10px;
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100px;
+}
+.button-css{
+    background-color:  black;
+    border: 5px solid silver;
+    border-radius: 3px;
+    color:white;
+    font-size: 10px;
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100px;
+}
+.button-javascript{
     background-color:  black;
     border: 5px solid silver;
     border-radius: 3px;
