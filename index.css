@@ -11,15 +11,17 @@ h1{
     color:White;
     border-style: groove;
     border-color: black;
+    text-align: left;
 }
 .content{
     background-color: grey;
     color:white;
     border-style: groove;
     border-color: black;
+    text-align: left;
 }
 html{
-    background-color:red;
+    background-color:silver;
 }
 .sub-title{
     text-align: center;
@@ -28,18 +30,20 @@ html{
     text-decoration: underline;
     padding-bottom:1em;
     font-weight: bold;
+    color:white;
 }
 .html-format{
 text-align: center;
 text-decoration: underline;
 font-weight: bold;
+color: white;
 
 
 }
 .css-format{
 text-align: center;
 text-decoration: underline;
-
+color: white;
 font-weight: bold;
 padding-top: 10px;
 }
@@ -48,7 +52,7 @@ text-align: center;
 text-decoration: underline;
 font-weight: bold; 
 padding-top:10px;
-
+color: white;
 }
 .button-html {
     background-color:  black;
@@ -83,3 +87,11 @@ padding-top:10px;
     text-align: center;
     width: 100px;
 }
+body{
+    background-image: url("./Pictures/Coding Background.jpg");
+    height: 1500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
