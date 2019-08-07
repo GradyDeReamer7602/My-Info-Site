@@ -24,15 +24,17 @@
          <a href="https://www.w3schools.com/js/" target="_blank" button type="button" class="button-javascript">JavaScript Resource</button></a>
         </div>
         <div>
-        <script type="text/javascript">
+            <h2>If This Is Useful...</h2>
+        <script class="script"type="text/javascript">
             var Likes = 0;
             function onClick(){
                 Likes += 1;
                 document.getElementById("Likes").innerHTML = Likes
-                sessionStorage.setItem("",variablevalue);
+                sessionStorage.setItem("Likes",variablevalue);
                 
             }
         </script>
+
         <button class="likebutton"type="button" onClick="onClick()">Like</button>
         <p>Likes: <a id="Likes">0</a></p>
         </div>
