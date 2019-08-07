@@ -100,7 +100,7 @@ body{
   button {
     text-align: center;
     background-color:  black;
-    border: 5px solid rgb(100, 4, 4);
+    border: 5px solid black;
     border-radius: 3px;
     color:white;
     font-size: 10px;
@@ -110,8 +110,8 @@ body{
     background-color:rgba(192, 192, 192, .75);
     color: black;
     font-size:15px;
-    padding:5px;
-    align-content: center;
+   
+    
     border: 5px solid rgb(100, 4, 4);
     width: 200px;
    
@@ -119,7 +119,7 @@ body{
   
   }
   .dropdown{
-    box-align: center;
+   margin: auto
    
   }
   .dropdown-content{
@@ -129,9 +129,8 @@ body{
     background-color: rgba(192, 192, 192, .75);;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    align-content: center;
-    align-items: center
+
+   
     
   }
    .dropdown-content a{
