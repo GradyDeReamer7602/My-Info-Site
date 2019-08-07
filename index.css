@@ -7,20 +7,7 @@ h1{
     border-color:black;
     padding-top: 15px;
 }
-.dropdownmenu{
-    background-color:black;
-    color:White;
-    border-style: groove;
-    border-color: black;
-    text-align: left;
-}
-.content{
-    background-color: grey;
-    color:white;
-    border-style: groove;
-    border-color: black;
-    text-align: left;
-}
+
 html{
     background-color:silver;
 }
@@ -96,6 +83,10 @@ body{
     background-size: cover;
     text-align: center;
   }
+  .list-box{
+      width: 40%;
+      margin: auto;
+  }
   
   button {
     text-align: center;
@@ -112,15 +103,17 @@ body{
     font-size:15px;
    
     
-    border: 5px solid rgb(100, 4, 4);
+    border: 5px black;
     width: 200px;
    
     
   
   }
   .dropdown{
-   margin: auto
-   
+    
+    display:inline-block;
+    position: unset
+
   }
   .dropdown-content{
     display: none;
@@ -129,13 +122,13 @@ body{
     background-color: rgba(192, 192, 192, .75);;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-
+    z-index: 1;
    
     
   }
    .dropdown-content a{
      color:black;
-     align-items: center;
+     margin: auto;
   
   
   }
